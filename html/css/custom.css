@@ -1,0 +1,122 @@
+.content-about-image {
+	padding-top: 0%;
+    height: 460px;
+    background: url(../images/about-img.jpg) no-repeat;
+    background-size: 100%;
+    margin-bottom: 0;
+    float: left;
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.content-what-image {
+	padding-top: 0%;
+    height: 460px;
+    background: url(../images/what-img.jpg) no-repeat;
+    background-size: 100%;
+    margin-bottom: 0;
+    float: left;
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.content-contacts-image { padding-top: 0%; height: 460px; background: url(../images/contact-img.jpg) no-repeat; background-size:100%; margin-bottom: 0; float: left; width: 100%; padding-bottom: 0; }
+
+
+.wraper_inner {
+    padding: 0;
+    padding-left: 80px;
+}
+
+.page-inner {
+	margin-top: 4rem;
+}
+
+
+.info-title {
+    width: auto;
+    color: #26478b;
+}
+
+.title-hr {
+    background: #26478a;
+}
+
+.text-display-1 {
+    font-size: 1.3rem;
+}
+
+.inner-pages-content {
+	margin-top: 98px;
+}
+
+.page-inner {
+   margin-top: 0rem;
+    width: 100%;
+    float: left;
+}
+
+.qr-code-img {
+    width: 150px;
+	    margin-bottom: 30px;
+}
+
+.col-contact {
+    margin-top: 0rem;
+}
+
+/* Job Categories */
+.job-categories .icon-bx-wraper{
+	margin-bottom: 30px;
+	background-color: rgba(255,255,255,0.8);
+	box-shadow: 0 0 15px 0px rgba(0,0,0,0.1);
+	
+}
+.job-categories .icon-bx-wraper:hover{
+	background-color:#26478a;
+}
+.job-categories .icon-bx-wraper:hover .rotate-icon{
+	font-size: 80px;
+	transform: scall(1);
+	transition: all 0.5s;
+	opacity: 0.2;
+	color: #ededed;
+}
+.job-categories .icon-bx-wraper .rotate-icon{
+	position: absolute;
+	left: 20px;
+	bottom: 0;
+	opacity: 0;
+	transition: all 0.5s;
+}
+.job-categories .icon-bx-wraper .dlab-tilte {
+	font-family: 'Poppins', sans-serif;
+	    font-weight: 500;
+	font-size: 1.3rem;
+    line-height: 1.8;
+	    margin: 2rem 0 0rem 0;
+	    min-height: 64px;
+}
+.job-categories .icon-bx-wraper:hover .dlab-tilte,
+.job-categories .icon-bx-wraper:hover p,
+.job-categories .icon-bx-wraper:hover .icon-md .work_icon{
+	color: #fff;	
+}
+.job-categories .icon-bx-wraper:hover,
+.job-categories .icon-bx-wraper{
+	transition: all 0.5s;
+	z-index: 1;
+}
+.site-button.radius-xl{
+	border-radius:60px;
+}
+
+.job-categories .p-a40 {
+    padding: 40px 38px;
+}
+
+.job-categories .icon-md .work_icon {
+    font-size: 45px;
+	color: rgba(221,221,221,1);
+}
+
